@@ -12,3 +12,40 @@
 | **Vet Consultation** | `Tele-Health` | Connects farmers directly to veterinarians via phone calls for guidance when additional diagnosis or action is required. |
 | **Crossbreeding Guide** | `Genetics` | Helps farmers make informed cattle breeding decisions by entering livestock details and primary purpose to preview expected traits. |
 | **Multilingual Support** | `Accessibility` | Complete voice and text support across Urdu, Pashto, Punjabi, Sindhi, and Saraiki to cater to local farming communities across Pakistan. |
+
+---
+
+## Tech Stack
+**Frontend:** HTML5, CSS3, JavaScript
+
+**Backend:** Python, 
+
+**AI:** Gemini 3.8
+
+**Hosting:** Netlify
+
+---
+
+## Repository Structure
+
+```text
+maweshi-ai/
+├── netlify/functions
+│       ├── analyze-injury.js      # Serverless function for Gemini visual disease analysis
+│       └── recommend-breeding.js  # Serverless function for breeding recommendation logic
+├── public/
+│   └── favicon.ico                # Application favicon
+├── src/
+│   ├── css/
+│   │   └── style.css              # Main application styling
+│   ├── js/
+│   │   ├── api.js                 # API handler for Netlify endpoints
+│   │   ├── app.js                 # Core frontend application logic
+│   │   └── audio.js               # Voice/Audio recording and playback handler
+│   └── index.html                 # Main application landing page
+├── .env.example                   # Environment variable template
+├── .gitignore                     # Git ignore file
+├── netlify.toml                   # Netlify configuration and redirects setup
+├── package.json                   # Node.js dependencies and script definitions
+└── README.md                      # Project documentation
+

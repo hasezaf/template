@@ -16,13 +16,15 @@
 ---
 
 ## Tech Stack
-**Frontend:** HTML5, CSS3, JavaScript
 
-**Backend:** Python, 
-
-**AI:** Gemini 3.8
-
-**Hosting:** Netlify
+| Layer | Technology |
+| :--- | :--- |
+| Frontend | HTML5, CSS3, vanilla JavaScript (RTL layout) |
+| Backend | Netlify Functions (Node.js 18+) |
+| AI | Google Gemini API (`gemini-3.8-flash`, fallback `gemini-3.5-flash-lite`) |
+| Voice output | Google Translate TTS, with Web Speech API fallback |
+| Libraries | [marked](https://github.com/markedjs/marked) (CDN), Google Fonts (CDN) |
+| Hosting | Netlify |
 
 ---
 

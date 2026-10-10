@@ -5,10 +5,10 @@
 ---
 
 ## Features
-**AI disease detection:** Upload images to the web application allowing AI to identify diseases and possible health conditions through visible symptoms.
 
-**Vet Consultation:** In case of confusion, farmers are connected to vets through calls allowing for detailed next steps.
-
-**Crossbreeding guide:** Farmers can efficiently crossbreed their cattle with a good idea of what to expect through a menu which allows user to enter details of their cattle and their primary purpose.
-
-**Multilingual support:** At least 4 different languages, including Pushto, Punjabi, Sindhi, Urdu and Saraiki, with both voice and text support have been added to accommodate farmers all across Pakistan.
+| Feature | Description |
+| :--- | :--- |
+| **AI Disease Detection** | Upload images to the web application allowing AI to identify diseases and possible health conditions through visible symptoms. |
+| **Vet Consultation** | In case of confusion, farmers are connected to vets through calls, allowing for detailed next steps. |
+| **Crossbreeding Guide** | Farmers can efficiently crossbreed their cattle with a clear expectation of outcomes using an interactive menu where they input cattle details and primary production goals. |
+| **Multilingual Support** | Voice and text support for multiple regional languages—including Pashto, Punjabi, Sindhi, Urdu, and Saraiki—to accommodate farmers across Pakistan. |

@@ -50,7 +50,7 @@ maweshi-ai/
 ├── netlify.toml                   # Netlify configuration and redirects setup
 ├── package.json                   # Node.js dependencies and script definitions
 └── README.md                      # Project documentation
-
+```
 ---
 
 ## Getting Started

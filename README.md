@@ -74,8 +74,6 @@ npm start                 # runs `netlify dev`
 
 ---
 
-## How it works
-
 ## How It Works
 
 1. The browser builds a prompt (including the selected language) and sends it to `/api/analyze-injury` or `/api/recommend-breeding`.
@@ -84,3 +82,5 @@ npm start                 # runs `netlify dev`
 4. The response is rendered as Markdown in the page, and can be played back as audio.
 
 The API key is never exposed to the client.
+
+---

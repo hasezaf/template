@@ -57,8 +57,11 @@ maweshi-ai/
 
 **Prerequisites:** 
 *First bullet point* Node.js 18+
+
 *Second bullet point* [Netlify CLI](https://docs.netlify.com/cli/get-started/) (`npm install -g netlify-cli`) 
+
 *Third bullet point* [Gemini API key](https://aistudio.google.com/apikey).
+
 
 ```bash
 git clone https://github.com/alihaider1145/maweshi-ai.git

@@ -63,6 +63,7 @@ maweshi-ai/
 
 - [Gemini API key](https://aistudio.google.com/apikey).
 
+**Run locally:** 
 
 ```bash
 git clone https://github.com/alihaider1145/maweshi-ai.git
@@ -70,3 +71,16 @@ cd maweshi-ai
 cp .env.example .env      # then add your GEMINI_API_KEY
 npm start                 # runs `netlify dev`
 ```
+
+---
+
+## How it works
+
+## How It Works
+
+1. The browser builds a prompt (including the selected language) and sends it to `/api/analyze-injury` or `/api/recommend-breeding`.
+2. `netlify.toml` rewrites `/api/*` to `/.netlify/functions/*`.
+3. The serverless function adds the API key and calls Gemini, trying the primary model first and falling back to the lighter model on failure.
+4. The response is rendered as Markdown in the page, and can be played back as audio.
+
+The API key is never exposed to the client.

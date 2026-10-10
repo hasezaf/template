@@ -31,8 +31,8 @@
 ```text
 maweshi-ai/
 ├── netlify/functions
-│       ├── analyze-injury.js      # Serverless function for Gemini visual disease analysis
-│       └── recommend-breeding.js  # Serverless function for breeding recommendation logic
+│   ├── analyze-injury.js      # Serverless function for Gemini visual disease analysis
+│   └── recommend-breeding.js  # Serverless function for breeding recommendation logic
 ├── public/
 │   └── favicon.ico                # Application favicon
 ├── src/
